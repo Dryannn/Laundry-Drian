@@ -176,7 +176,7 @@ header .nav li a:hover {
 .hero_section {
   position: relative;
   min-height: 100vh;
-  background: url(/Laundry-Website_Extras/assets/images/Bg\ Dasboard\ Loundry.png) no-repeat;
+  background: url(assets/images/Bg\ Dasboard\ Loundry.png) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -267,7 +267,7 @@ header .nav li a:hover {
 .system_section {
   position: relative;
   min-height: 100vh;
-  background: url(/Laundry-Website_Extras/assets/images/bg2.jpg);
+  background: url(assets/images/bg2.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -558,7 +558,7 @@ header .nav li a:hover {
 .testimonials_section {
   position: relative;
   min-height: 100vh;
-  background: url(/Laundry-Website_Extras/assets/images/bg3.jpg);
+  background: url(assets/images/bg3.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
