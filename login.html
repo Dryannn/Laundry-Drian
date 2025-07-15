@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - LaundryBersih</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex bg-white overflow-hidden">
+
+  <!-- Container -->
+  <div class="flex w-full h-screen">
+
+    <!-- Left: Login form  -->
+    <div class="w-1/2 flex items-center justify-center px-10">
+      <div class="w-full max-w-md">
+        <div class="mb-8 text-center">
+          <h2 class="text-3xl font-bold text-[#0A2C56]">Welcome!</h2>
+          <p class="text-[#6B7280] mt-1">Sign in to your Account</p>
+        </div>
+
+        <form class="space-y-5" action="/template/index.html" method="get">
+          <input type="text" placeholder="Username"
+                 class="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          
+          <input type="password" placeholder="Password"
+                 class="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400" />
+
+          <div class="text-right">
+            <a href="#" class="text-sm text-blue-600 hover:underline">Forgot Password?</a>
+          </div>
+
+          <div class="flex gap-4">
+            <button type="submit"
+                    class="w-full py-3 bg-[#0A2C56] text-white font-semibold rounded-full hover:bg-[#0c3d7c] transition">SIGN IN</button>
+           <a href="register.html"
+            class="w-full py-3 border border-[#0A2C56] text-[#0A2C56] font-semibold rounded-full hover:bg-blue-50 transition text-center block">SIGN UP</a>
+          </div>
+          <div class="text-center text-gray-500 mt-4 font-medium">OR LOGIN WITH</div>
+          <div class="flex justify-center gap-6 mt-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-9 h-9 cursor-pointer">
+            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Google" class="w-9 h-9 cursor-pointer">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" class="w-9 h-9 cursor-pointer">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Right: Illustration -->
+    <div class="w-1/2 flex items-center justify-start pl-16">
+      <img src="/Laundry-Website_Extras/assets/images/bg login.png"
+           alt="Login Illustration"
+           class="w-full max-w-[650px] h-auto object-contain mr-10" />
+    </div>
+
+  </div>
+
+</body>
+</html>
